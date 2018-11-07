@@ -1,0 +1,55 @@
+body {
+    background-color: #88b572;
+    background-position: center center;
+   
+   
+}
+
+
+.imgheader{
+    background-image: url("puntos-Background.png");
+    background-repeat: repeat-x;
+   background-position: 5px;
+    height: 100px;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f5b4;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+
+.form-control:focus {
+    outline: #4a663d !important;
+    box-shadow:5px #4a663d  !important;
+    border:1px solid #2b642b;
+  }
+
+.submit {
+    background-color: #4a663d;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#lista-productos li {
+    background-color: #bed5ab;
+    border: solid 2px #fff;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+#lista-productos li img {
+   float:right;
+   }
+
+/*<img class="btnBorrar" src="assets/css/listo.png">*/
